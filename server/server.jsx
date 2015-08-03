@@ -21,3 +21,7 @@ if (Meteor.users.find().count() === 0) {
     }
   })
 }
+
+Meteor.publish("usernames", function() {
+  Meteor.users.find({}, {fields: {username: 1, "profile.image":1}})
+})
