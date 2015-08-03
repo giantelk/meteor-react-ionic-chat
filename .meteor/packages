@@ -5,8 +5,6 @@
 # but you can also edit it by hand.
 
 meteor-platform
-autopublish
-insecure
 cosmos:browserify
 fourseven:scss@2.0.0
 meteorhacks:npm
@@ -16,3 +14,4 @@ react
 
 
 npm-container
+accounts-password
